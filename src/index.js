@@ -12,7 +12,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/educator">
+                <Route path="/">
                     <Educator />
                 </Route>
                 <Route path="/courses">
@@ -22,7 +22,7 @@ function App() {
                     <Subjects />
                 </Route>
                 <Route path="/">
-                    <Redirect to="/educator" />
+                    <Redirect to="/" />
                 </Route>
             </Switch>
 
