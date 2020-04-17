@@ -1,0 +1,23 @@
+.button{
+    height: fit-content;
+    margin: 1% 2% 0 0; 
+    box-shadow: none !important;
+}
+
+.material-red{
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    color: white;
+    height: fit-content;
+}
+
+.m-1{
+    margin: 1%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+.justify-content-between{
+    display: flex;
+    justify-content: space-between;
+}

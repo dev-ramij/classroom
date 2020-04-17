@@ -1,0 +1,40 @@
+.form{
+    text-align: center;
+}
+
+.modal-body{
+    background: linear-gradient(to bottom right, #ffccff 0%, #ffffcc 100%);
+}
+
+.login-header{
+    margin-bottom: 5%;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.sign-up-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-check-box{
+    width: 90%;
+    text-align: end;
+}
+
+.text-success{
+    color: green;
+}
+
+.button{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    margin-left:13%;
+}

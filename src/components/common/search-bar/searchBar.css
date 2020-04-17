@@ -1,0 +1,22 @@
+.barStyle{           
+    width: 50%;
+    border-radius: 25px;
+    border: 1px #ccc solid;
+    height: 40px;
+    font-size: large;
+    padding-left: 2%;
+}
+
+.barStyle::placeholder{
+    font-size: large;
+}
+
+.right-align{
+    align-content: right;
+}
+
+.barStyle:focus{
+    outline: none;
+    box-shadow:  0px 0px 2px 2px #ccc;
+    border: 1px skyblue solid;
+}

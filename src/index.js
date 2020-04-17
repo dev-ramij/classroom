@@ -1,17 +1,33 @@
+import 'font-awesome/css/font-awesome.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import AllCourses from './components/all-courses/allCourses';
+import Subjects from './components/subject/subject';
+import Educator from './components/educator/educator';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+function App() {
+    return (
+        <Router>
+            <Switch>
+                <Route path="/educator">
+                    <Educator />
+                </Route>
+                <Route path="/courses">
+                    <AllCourses />
+                </Route>
+                <Route path="/subjects">
+                    <Subjects />
+                </Route>
+                <Route path="/">
+                    <Redirect to="/educator" />
+                </Route>
+            </Switch>
+
+        </Router>
+
+
+    )
+} 

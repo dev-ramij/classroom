@@ -1,0 +1,66 @@
+.list-subject {
+    width: 50%;
+    height: 30px;
+    margin: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: lightsteelblue;
+    /* The below lines are for making ... in text-overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-subject:hover {
+    box-shadow: 0px 0px 2px 2px turquoise;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-with-search {
+    display: flex;
+    margin: 25px;
+}
+
+h1 {
+    margin: auto;
+    margin-left: unset;
+}
+
+.list-container-subject {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+hr {
+    margin: 0
+}
+
+.icons {
+    margin-right: 10px;
+    color: teal;
+}
+
+.sub-topic {
+    width: 90%;
+    margin-left: 7%;
+}
+
+.sub-topic-list {
+    margin: 2px;
+    background-color: lavender;
+}
+
+.sub-topic-list:hover{
+    box-shadow: 0px 0px 1px 1px khaki;
+ 
+}
+
+.scroll{
+    overflow: auto;
+}
