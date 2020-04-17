@@ -8,8 +8,10 @@ import Educator from './components/educator/educator';
 
 ReactDOM.render(<Test />, document.getElementById('root'));
 
-function Test(){
-    <h1>Happens</h1>
+function Test() {
+    return (
+        <h1>Happens</h1>
+    )
 }
 
 function App() {
