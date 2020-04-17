@@ -10,23 +10,24 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 function App() {
     return (
-        <Router>
-            <Switch>
-                <Route path="/">
-                    <Educator />
-                </Route>
-                <Route path="/courses">
-                    <AllCourses />
-                </Route>
-                <Route path="/subjects">
-                    <Subjects />
-                </Route>
-                <Route path="/">
-                    <Redirect to="/" />
-                </Route>
-            </Switch>
+        // <Router>
+        //     <Switch>
+        //         <Route path="/">
+        //             <Educator />
+        //         </Route>
+        //         <Route path="/courses">
+        //             <AllCourses />
+        //         </Route>
+        //         <Route path="/subjects">
+        //             <Subjects />
+        //         </Route>
+        //         <Route path="/">
+        //             <Redirect to="/" />
+        //         </Route>
+        //     </Switch>
 
-        </Router>
+        // </Router>
+        <Educator/>
 
 
     )
