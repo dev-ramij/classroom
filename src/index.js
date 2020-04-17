@@ -6,7 +6,7 @@ import AllCourses from './components/all-courses/allCourses';
 import Subjects from './components/subject/subject';
 import Educator from './components/educator/educator';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Educator />, document.getElementById('root'));
 
 function App() {
     return (
