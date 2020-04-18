@@ -18,14 +18,14 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/">
-                    <Educator />
-                </Route>
                 <Route path="/courses">
                     <AllCourses />
                 </Route>
                 <Route path="/subjects">
                     <Subjects />
+                </Route>
+                <Route path="/">
+                    <Educator />
                 </Route>
             </Switch>
 
