@@ -6,7 +6,7 @@ import AllCourses from './components/all-courses/allCourses';
 import Subjects from './components/subject/subject';
 import Educator from './components/educator/educator';
 
-ReactDOM.render(<Test />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 function Test() {
     return (
@@ -26,9 +26,6 @@ function App() {
                 </Route>
                 <Route path="/subjects">
                     <Subjects />
-                </Route>
-                <Route path="/">
-                    <Redirect to="/" />
                 </Route>
             </Switch>
 
